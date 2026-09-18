@@ -1,3 +1,0 @@
-[submodule "components/blackmagic_esp32"]
-	path = components/blackmagic_esp32
-	url = https://github.com/EZ32Inc/blackmagic_esp32
