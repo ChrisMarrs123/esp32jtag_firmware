@@ -1,0 +1,4 @@
+[submodule "components/blackmagic_esp32"]
+	path = components/blackmagic_esp32
+	url = https://github.com/ChrisMarrs123/blackmagic_esp32
+	branch = v2.1.0_esp32jtag
