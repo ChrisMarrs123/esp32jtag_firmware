@@ -1,4 +1,4 @@
-This fork uses an updated BalckMagic Debug component, where the BlackMagic fork is pointing to a repo in codeberg where the BlackMagic project has moved to.  I rebased the changes in the v2.0.0_esp32 branch ontop of the v2.1.0 branch of BlackMagic.  the v2.0.0_esp32 branch involves adding the ESP32JTAG device as a platform, along with some specific changes to allow BlackMagic to work on the ESP32JTAG.  This fixes issues I was having with an SAME70 device I was debugging where I was unable to load firmware or erase.
+This fork uses an updated BalckMagic Debug component, where the BlackMagic submodule is pointing to a repo in codeberg where the BlackMagic project has moved to.  I rebased the changes in the BlackMagic v2.0.0_esp32 branch ontop of the v2.1.0 branch of BlackMagic.  The v2.0.0_esp32 branch involves adding the ESP32JTAG device as a platform, along with some specific changes to allow BlackMagic to work on the ESP32JTAG.  This fixes issues I was having with an SAME70 device I was debugging where I was unable to load firmware or erase the target device.
 
 # Multi-Function Debug Tool for AI-Driven Embedded System Development
 
