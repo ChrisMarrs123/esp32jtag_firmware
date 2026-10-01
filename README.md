@@ -1,3 +1,5 @@
+This fork uses an updated BalckMagic Debug component, where the BlackMagic submodule is pointing to a repo in codeberg where the BlackMagic project has moved to.  I rebased the changes in the BlackMagic v2.0.0_esp32 branch ontop of the v2.1.0 branch of BlackMagic.  The v2.0.0_esp32 branch involves adding the ESP32JTAG device as a platform, along with some specific changes to allow BlackMagic to work on the ESP32JTAG.  This fixes issues I was having with an SAME70 device I was debugging where I was unable to load firmware or erase the target device.
+
 # Multi-Function Debug Tool for AI-Driven Embedded System Development
 
 ESP32JTAG Firmware is a powerful all-in-one debug and development platform built on the ESP32-S3. It integrates JTAG/SWD debugging, a 16-channel logic analyzer, FPGA programming, XVC server support, signal generation, and a browser-based configuration interface into a single compact device, accessible over Wi-Fi or USB.
